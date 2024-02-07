@@ -25,8 +25,7 @@ function Nike() {
 
     }
     const handlerigth=()=>{
-        console.log("clikcked")
-        if(marginLeft==='0%'){
+         if(marginLeft==='0%'){
 
         }
         else {        setmarginLeft(prevMarginLeft => `${parseInt(prevMarginLeft) + 26}%`);
@@ -111,9 +110,12 @@ function Nike() {
                
             </div>
         </div>
+
       </div>
-      
+    
+
     </div>
+    
   );
 }
 
